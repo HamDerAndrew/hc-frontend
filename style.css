@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .btn:hover {
+    background-color: #555;
+  }
+
+  #video-player {
+    width: 100%;
+  }
